@@ -6,7 +6,12 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello my friend\n";
+    string name;
+    cout << "Enter Your Name:";
+    cin >> name;
+    cout << "Hello my friend "<<name<<"\n";
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
